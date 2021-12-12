@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #dddddd;
+}
+#general{
+    margin: auto;
+    width: 1600px;;
+    height: 1400px;;
+    background-color: gray ;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+#menu{
+    list-style: none;
+    margin: 70px;
+    padding: 10px;
+    background-color: white;
+}
+#menu ul li{
+    display: inline-block;
+    
+}
+#menu ul li a{
+    padding: 5px 60px;
+    color: gray;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+}
+.palabras{
+    margin-left: 50px;
+    
+}
+.derecha{
+    float: right;
+}
+.buscar{
+    width: 300px;
+    height: 50px;
+}
+#foto1{
+    list-style: none;
+    margin: 70px;
+    padding: 10px;
+    background-color: white;
+}
+#mesi{
+    vertical-align: middle;
+    width: 100%;
+    height: 400px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: gray;
+    padding: 10px;
+    margin: 70px;
+  }
+  
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px ;
+    font-size: 30px;
+    height: 400px;
+    
+  }
+.foto2{
+    margin-top: 2px;
+    height: 30%;
+    width: 100%;
+    vertical-align: middle;
+}
+p{
+    font-size: 15px;
+   text-align: initial;
+}
+.margen1{
+    font-size: 15px;
+    text-align: initial;
+    margin-left: 30px ;
+}
+
